@@ -9,6 +9,6 @@ def uppercase(str):
 
     for st in str:
         if ord(st) in list(range(97, 123)):
-            print(chr(ord(st) - 32), end='')
+            print("{}".format(chr(ord(st) - 32)), end='')
         else:
-            print(st, end='')
+            print("{}".format(st), end='')
