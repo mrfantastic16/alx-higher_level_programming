@@ -6,8 +6,7 @@ def islower(a):
     islower - returns True if word is lower else false
     :a: character to check
     '''
-
-    for i in range(97, 123):
-        if a == chr(i):
-            return True
-    return False
+    if ord(a) in list(range(97, 123)):
+        return True
+    else:
+        return False
