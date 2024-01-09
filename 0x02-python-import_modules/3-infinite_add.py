@@ -8,4 +8,3 @@ if __name__ == '__main__':
         i += int(argv[j])
 
     print(i)
-    
