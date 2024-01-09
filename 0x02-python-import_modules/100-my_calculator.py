@@ -19,8 +19,8 @@ if __name__ == '__main__':
     operand_2 = int(argv[3])
     op = (argv[2])
 
-        result = a_operators[op](operand_1, operand_2)
-        print(f"{operand_1} {op} {operand_2} = {result}")
+    result = a_operators[op](operand_1, operand_2)
+    print(f"{operand_1} {op} {operand_2} = {result}")
 
 
 def check_op(op):
@@ -30,3 +30,6 @@ def check_op(op):
 
     result = a_operators[op](operand_1, operand_2)
     print(result)
+
+
+main()
