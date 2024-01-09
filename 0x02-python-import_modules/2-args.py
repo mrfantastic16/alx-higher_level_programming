@@ -4,7 +4,7 @@ if __name__ == '__main__':
     from sys import argv
 
     j = len(argv) - 1
-    
+
     if j == 0:
         print(f"{j} arguments.")
     elif j == 1:
