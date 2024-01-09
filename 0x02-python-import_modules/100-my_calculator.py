@@ -21,7 +21,7 @@ def main():
         op = check_op(argv[2])
 
         result = a_operators[op](operand_1, operand_2)
-        print(result)
+        print(f"{operand_1} {op} {operand_2} = {result}")
 
 
 def check_op(op):
