@@ -3,4 +3,5 @@
 
 
 class Rectangle:
+    ''' Template for a rectangle object'''
     pass
