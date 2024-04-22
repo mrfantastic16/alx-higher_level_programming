@@ -9,3 +9,32 @@
 * [Learn to Program](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
 * [Pycodestyle - style Guide for Python Code](https://pypi.org/project/pycodestyle/)
 
+
+## Tasks
+
+
+### 0. Run Python file
+
+mandatory
+
+Write a shell script that runs a python script
+
+The Python file name would be saved in the environment variable $PYFILE
+
+```
+guillaume@ubuntu:~/py/0x00$ cat main.py
+#!/usr/bin/python3
+print("Best School")
+
+guillaume@ubuntu:~/py/0x00$ export PYFILE=main.py
+guillaume@ubuntu:~/py/0x00$ ./0-run
+Best School
+guillaume@ubuntu:~/py/0x00$
+```
+
+**Repo:**
+
+- GitHub repository: `alx-higher_level_programming`
+- Directory: `0x00-python-hello_world`
+- File: `0-run`
+
