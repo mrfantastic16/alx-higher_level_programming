@@ -38,3 +38,21 @@ guillaume@ubuntu:~/py/0x00$
 - Directory: `0x00-python-hello_world`
 - File: `0-run`
 
+### 1. Run Inline
+
+Write a shell script that runs python code.
+
+The python code would be saved in the environment variable $PYCODE
+
+```
+guillaume@ubuntu:~/py/0x00$ export PYCODE='print(f"Best School: {88+10}")'
+guillaume@ubuntu:~/py/0x00$ ./1-run_inline
+Best School: 98
+guillaume@ubuntu:~/py/0x00$
+```
+
+**Repo:**
+- GitHub repository: `alx-higher_level_programming`
+- Directory: `0x00-python-hello_world`
+- File: `1-run_inline`
+
