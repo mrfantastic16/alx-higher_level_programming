@@ -15,7 +15,7 @@
 
 ### 0. Run Python file
 
-mandatory
+mandatory ✅
 
 Write a shell script that runs a python script
 
@@ -41,6 +41,8 @@ guillaume@ubuntu:~/py/0x00$
 
 ### 1. Run Inline
 
+mandatory ✅
+
 Write a shell script that runs python code.
 
 The python code would be saved in the environment variable $PYCODE
@@ -59,7 +61,7 @@ guillaume@ubuntu:~/py/0x00$
 
 
 ### 2. Hello, print
-mandatory
+mandatory ✅
 
 Write a Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
 
@@ -80,7 +82,7 @@ guillaume@ubuntu:~/py/0x00$
 
 
 ### 3. Print integer
-mandatory
+mandatory ✅
 
 Complete this source code in order to print the integer stored in the variable number, followed by Battery street, followed by a new line.
 
@@ -97,3 +99,34 @@ guillaume@ubuntu:~/py/0x00$ ./3-print_number.py
 98 Battery street
 guillaume@ubuntu:~/py/0x00$
 ```
+
+**Repo:**
+
+- GitHub repository: `alx-higher_level_programming`
+- Directory: `0x00-python-hello_world`
+- File: `3-print_number.py`
+
+
+### 4. Print float
+
+mandatory 
+
+Complete the source code in order to print the float stored in the variable number with a precision of 2 digits.
+
+- You can find the source code [here](https://github.com/alx-tools/0x00.py/blob/master/4-print_float.py)
+- The output of the program should be:
+  - Float:, followed by the float with only 2 digits
+  - followed by a new line
+- You are not allowed to cast number to string
+- You have to use f-strings
+
+```
+guillaume@ubuntu:~/py/0x00$ ./4-print_float.py
+Float: 3.14
+guillaume@ubuntu:~/py/0x00$
+```
+
+**Repo:**
+- GitHub repository: `alx-higher_level_programming`
+- Directory: `0x00-python-hello_world`
+- File: `4-print_float.py`
