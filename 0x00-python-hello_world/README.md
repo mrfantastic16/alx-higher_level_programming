@@ -38,6 +38,7 @@ guillaume@ubuntu:~/py/0x00$
 - Directory: `0x00-python-hello_world`
 - File: `0-run`
 
+
 ### 1. Run Inline
 
 Write a shell script that runs python code.
