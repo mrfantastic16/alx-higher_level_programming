@@ -214,7 +214,7 @@ guillaume@ubuntu:~/py/0x00$
 - File: `7-edges.py`
 
 
-### 8. Create a new sentence
+### 8. Create a new sentence ✅
 mandatory
 
 Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/8-concat_edges.py) to print `object-oriented programming with Python`, followed by a new line.
@@ -240,7 +240,7 @@ guillaume@ubuntu:~/py/0x00$
 - File: `8-concat_edges.py`
 
 
-### 9. Easter Egg
+### 9. Easter Egg ✅
 mandatory
 
 Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
@@ -280,7 +280,7 @@ guillaume@ubuntu:~/py/0x00$
 - File: `9-easter_egg.py`
 
 
-### 10. Linked list cycle
+### 10. Linked list cycle ❌
 mandatory
 
 Technical interview preparation:
