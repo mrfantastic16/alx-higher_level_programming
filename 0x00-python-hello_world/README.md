@@ -160,7 +160,7 @@ guillaume@ubuntu:~/py/0x00$
 - Directory: `0x00-python-hello_world`
 - File: `5-print_string.py`
 
-### 6. Play with strings
+### 6. Play with strings ✅
 mandatory
 
 Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/6-concat.py) to print `Welcome to Holberton School!`
@@ -185,7 +185,7 @@ guillaume@ubuntu:~/py/0x00$
 - File: `6-concat.py`
 
 
-### 7. Copy - Cut - Paste
+### 7. Copy - Cut - Paste ✅
 mandatory
 
 Complete this [source code](https://github.com/alx-tools/0x00.py/blob/master/7-edges.py)
