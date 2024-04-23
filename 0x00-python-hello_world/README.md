@@ -10,6 +10,17 @@
 * [Pycodestyle - style Guide for Python Code](https://pypi.org/project/pycodestyle/)
 
 
+## Pending Tasks 
+
+* [10. Linked list cycle](#10-linked-list-cycle-)
+  * Need to be up and running with C
+* [13. ByteCode -> Python #1](#13-bytecode---python-1-)
+  * [The Python docs on the compile() function]( https://docs.python.org/3/library/functions.html#compile)
+  * [The Python docs on the py_compile module](https://docs.python.org/3/library/py_compile.html)
+  * [The Python docs on the compileall module](https://docs.python.org/3/library/compileall.html)
+  * [Medium Article](https://towardsdatascience.com/understanding-python-bytecode-e7edaae8734d)
+  * [Python bytcode](https://docs.python.org/3/library/dis.html)
+
 ## Tasks
 
 
@@ -545,7 +556,7 @@ guillaume@ubuntu:~/py/0x00$
 - File: `101-compile`
 
 
-### 13. ByteCode -> Python #1 ❌
+### 13. ByteCode -&gt; Python #1 ❌
 #advanced
 
 Write the Python function `def magic_calculation(a, b):` that does exactly the same as the following Python bytecode:
