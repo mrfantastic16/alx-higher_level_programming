@@ -476,7 +476,7 @@ carrie@ubuntu:~/0x00$
 - File: `10-check_cycle.c, lists.h`
 
 
-### 11. Hello, write
+### 11. Hello, write ✅
 advanced
 
 Write a Python script that prints exactly `and that piece of art is useful - Dora Korpar, 2015-10-19`, followed by a new line.
@@ -504,7 +504,7 @@ guillaume@ubuntu:~/py/0x00$
 - File: `100-write.py`
 
 
-### 12. Compile
+### 12. Compile ✅
 #advanced
 
 Write a script that compiles a Python script file.
@@ -545,7 +545,7 @@ guillaume@ubuntu:~/py/0x00$
 - File: `101-compile`
 
 
-### 13. ByteCode -> Python #1
+### 13. ByteCode -> Python #1 ❌
 #advanced
 
 Write the Python function `def magic_calculation(a, b):` that does exactly the same as the following Python bytecode:
