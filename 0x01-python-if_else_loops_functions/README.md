@@ -11,8 +11,8 @@
 
 
 
-## Task
-### 0. Positive anything is better than negative nothing
+## Task _`(Two undone)`_
+### 0. Positive anything is better than negative nothing ✅
 mandatory
 
 This program will assign a random signed number to the variable `number` each time it is executed. Complete the source code in order to print whether the number stored in the variable `number` is positive or negative.
@@ -104,7 +104,7 @@ guillaume@ubuntu:~/0x01$
 * File: `1-last_digit.py`
 
 
-### 2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
+### 2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game ✅
 mandatory
 
 Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
@@ -125,7 +125,7 @@ abcdefghijklmnopqrstuvwxyzguillaume@ubuntu:~/0x01$
 * File: `2-print_alphabet.py`
 
 
-### 3. When I was having that alphabet soup, I never thought that it would pay off
+### 3. When I was having that alphabet soup, I never thought that it would pay off ✅
 mandatory
 
 Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
@@ -148,7 +148,7 @@ abcdfghijklmnoprstuvwxyzguillaume@ubuntu:~/0x01$
 
 
 
-### 4. Hexadecimal printing
+### 4. Hexadecimal printing ✅
 mandatory
 
 Write a program that prints all numbers from `0` to `98` in decimal and in hexadecimal (as in the following example)
@@ -193,7 +193,7 @@ guillaume@ubuntu:~/0x01$
 
 
 
-### 5. 00...99
+### 5. 00...99 ✅
 mandatory
 
 Write a program that prints numbers from `0` to `99`.
@@ -219,7 +219,7 @@ guillaume@ubuntu:~/0x01$
 
 
 
-### 6. Inventing is a combination of brains and materials. The more brains you use, the less material you need
+### 6. Inventing is a combination of brains and materials. The more brains you use, the less material you need ✅
 mandatory
 
 Write a program that prints all possible different combinations of two digits.
@@ -242,7 +242,7 @@ Write a program that prints all possible different combinations of two digits.
 
 
 
-### 7. islower
+### 7. islower ✅
 mandatory
 
 Write a function that checks for lowercase character.
@@ -283,7 +283,7 @@ guillaume@ubuntu:~/0x01$
 
 
 
-### 8. To uppercase
+### 8. To uppercase ✅
 mandatory
 
 Write a function that prints a string in uppercase followed by a new line.
@@ -318,7 +318,7 @@ guillaume@ubuntu:~/0x01$
 
 
 
-### 9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
+### 9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important ✅
 mandatory
 
 Write a function that prints the last digit of a number.
@@ -351,7 +351,7 @@ guillaume@ubuntu:~/0x01$
 
 
 
-### 10. a + b
+### 10. a + b ✅
 mandatory
 
 Write a function that adds two integers and returns the result.
@@ -385,7 +385,7 @@ guillaume@ubuntu:~/0x01$
 
 
 
-### 11. a ^ b
+### 11. a ^ b ✅
 mandatory
 
 Write a function that computes `a` to the power of `b` and return the value.
@@ -423,7 +423,7 @@ guillaume@ubuntu:~/0x01$
 
 
 
-### 12. Fizz Buzz
+### 12. Fizz Buzz ✅
 mandatory
 
 Write a function that prints the numbers from 1 to 100 separated by a space
@@ -456,7 +456,7 @@ guillaume@ubuntu:~/0x01$
 
 
 
-### 13. Insert in sorted linked list
+### 13. Insert in sorted linked list ❌
 mandatory
 
 Technical interview preparation:
@@ -643,7 +643,7 @@ carrie@ubuntu:0x01$
 
 
 
-### 14. Smile in the mirror
+### 14. Smile in the mirror ✅
 advanced
 
 Write a program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (`z` in lowercase and `Y` in uppercase) , not followed by a new line.
@@ -666,7 +666,7 @@ zYxWvUtSrQpOnMlKjIhGfEdCbAguillaume@ubuntu:~/0x01$
 
 
 
-### 15. Remove at position
+### 15. Remove at position ✅
 #advanced
 
 Write a function that creates a copy of the string, removing the character at the position `n` (not the Python way, the “C array index”).
@@ -704,7 +704,7 @@ guillaume@ubuntu:~/0x01$
 
 
 
-### 16. ByteCode -> Python #2
+### 16. ByteCode -> Python #2 ❌
 #advanced
 
 Write the Python function `def magic_calculation(a, b, c):` that does exactly the same as the following Python bytecode:
