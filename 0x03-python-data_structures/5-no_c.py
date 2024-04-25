@@ -2,10 +2,10 @@
 
 
 def no_c(my_string):
-    string_lst = list(my_string)
+    string_lst = ""
 
-    for key, val in enumerate(string_lst):
-        if val in ['c', 'C']:
-            string_lst.pop(key)
+    for key, val in enumerate(list(my_string)):
+        if val not in ['c', 'C']:
+            string_lst += val
 
-    return "".join(string_lst)
+    return string_lst
