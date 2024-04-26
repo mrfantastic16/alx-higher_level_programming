@@ -2,10 +2,10 @@
 =============================================
 
 
-Tasks
+Tasks `(2 Undone)`
 -----
 
-### 0\. Print a list of integers
+### 0\. Print a list of integers ✅
 
 mandatory
 
@@ -42,7 +42,7 @@ guillaume@ubuntu:~/0x03$
 -   Directory: `0x03-python-data_structures`
 -   File: `0-print_list_integer.py`
 
-### 1\. Secure access to an element in a list
+### 1\. Secure access to an element in a list ✅
 
 mandatory
 
@@ -75,7 +75,7 @@ guillaume@ubuntu:~/0x03$
 -   Directory: `0x03-python-data_structures`
 -   File: `1-element_at.py`
 
-### 2\. Replace element
+### 2\. Replace element ✅
 
 mandatory
 
@@ -113,7 +113,7 @@ guillaume@ubuntu:~/0x03$
 -   Directory: `0x03-python-data_structures`
 -   File: `2-replace_in_list.py`
 
-### 3\. Print a list of integers... in reverse!
+### 3\. Print a list of integers... in reverse! ✅
 
 mandatory
 
@@ -150,7 +150,7 @@ guillaume@ubuntu:~/0x03$
 -   Directory: `0x03-python-data_structures`
 -   File: `3-print_reversed_list_integer.py`
 
-### 4\. Replace in a copy
+### 4\. Replace in a copy ✅
 
 mandatory
 
@@ -188,7 +188,7 @@ guillaume@ubuntu:~/0x03$
 -   Directory: `0x03-python-data_structures`
 -   File: `4-new_in_list.py`
 
-### 5\. Can you C me now?
+### 5\. Can you C me now? ✅
 
 mandatory
 
@@ -222,7 +222,7 @@ guillaume@ubuntu:~/0x03$
 -   Directory: `0x03-python-data_structures`
 -   File: `5-no_c.py`
 
-### 6\. Lists of lists = Matrix
+### 6\. Lists of lists = Matrix ✅
 
 mandatory
 
@@ -266,7 +266,7 @@ guillaume@ubuntu:~/0x03$
 -   Directory: `0x03-python-data_structures`
 -   File: `6-print_matrix_integer.py`
 
-### 7\. Tuples addition
+### 7\. Tuples addition ✅
 
 mandatory
 
@@ -308,7 +308,7 @@ guillaume@ubuntu:~/0x03$
 -   Directory: `0x03-python-data_structures`
 -   File: `7-add_tuple.py`
 
-### 8\. More returns!
+### 8\. More returns! ✅
 
 mandatory
 
@@ -339,7 +339,7 @@ guillaume@ubuntu:~/0x03$
 -   Directory: `0x03-python-data_structures`
 -   File: `8-multiple_returns.py`
 
-### 9\. Find the max
+### 9\. Find the max ✅
 
 mandatory
 
@@ -372,7 +372,7 @@ guillaume@ubuntu:~/0x03$
 -   Directory: `0x03-python-data_structures`
 -   File: `9-max_integer.py`
 
-### 10\. Only by 2
+### 10\. Only by 2 ✅
 
 mandatory
 
@@ -414,7 +414,7 @@ guillaume@ubuntu:~/0x03$
 -   Directory: `0x03-python-data_structures`
 -   File: `10-divisible_by_2.py`
 
-### 11\. Delete at
+### 11\. Delete at ✅
 
 mandatory
 
@@ -449,7 +449,7 @@ guillaume@ubuntu:~/0x03$
 -   Directory: `0x03-python-data_structures`
 -   File: `11-delete_at.py`
 
-### 12\. Switch
+### 12\. Switch ✅
 
 mandatory
 
@@ -474,7 +474,7 @@ guillaume@ubuntu:~/py/0x03$
 -   Directory: `0x03-python-data_structures`
 -   File: `12-switch.py`
 
-### 13\. Linked list palindrome
+### 13\. Linked list palindrome ❌
 
 mandatory
 
@@ -664,7 +664,7 @@ carrie@ubuntu:0x03$
 -   Directory: `0x03-python-data_structures`
 -   File: `13-is_palindrome.c, lists.h`
 
-### 14\. CPython #0: Python lists
+### 14\. CPython #0: Python lists ❌
 
 #advanced
 
@@ -756,5 +756,3 @@ julien@CPython:~/CPython$
 -   GitHub repository: `alx-higher_level_programming`
 -   Directory: `0x03-python-data_structures`
 -   File: `100-print_python_list_info.c`
-
--
