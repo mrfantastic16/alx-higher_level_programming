@@ -10,9 +10,3 @@ def roman_to_int(roman_string):
 		'M': 1000
 	}
 
-	prev_va = roman_int_map[roman_string[1]]
-	curr_va = roman_int_map[roman_string[1]]
-
-	print(prev_va, curr_va)
-
-roman_to_int('II')
