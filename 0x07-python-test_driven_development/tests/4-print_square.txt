@@ -60,7 +60,7 @@ size must be >= 0
 ::
     >>> print_square(-7)
     Traceback (most recent call last):
-    ValueError: size should be >= 0
+    ValueError: size must be >= 0
 
 
 
