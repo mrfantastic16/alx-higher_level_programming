@@ -7,9 +7,9 @@ This module provides the say_my_name function
 
 
 def say_my_name(first_name, last_name=""):
-    f"""Prints received parameters in the format
+    """Prints received parameters in the format
     `My name is {first_name} {last_name}`
-    
+
     Args:
         first_name: param1 to be printed
         last_name: optional param2
