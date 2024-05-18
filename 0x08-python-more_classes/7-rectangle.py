@@ -62,7 +62,7 @@ class Rectangle:
 
         for i in range(self.__height):
             for j in range(self.__width):
-                rect += "#"
+                rect += str(type(self).print_symbol)
             rect += '\n'
 
         return rect[:-1]
