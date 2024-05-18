@@ -1,7 +1,19 @@
 #!/usr/bin/python3
-"""Solves the N-queens puzzle"""
+"""Solves the N-queens puzzle.
+Determines all possible solutions to placing N
+N non-attacking queens on an NxN chessboard.
+Example:
+    $ ./101-nqueens.py N
+N must be an integer greater than or equal to 4.
+Attributes:
+    solutions (list): A list of lists containing solutions.
+    board (list): A list of lists representing the chessboard.
 
-import sys
+Solutions are represented in the format [[r, c], [r, c], [r, c], [r, c]]
+where r and c represent the row and column, respectively, where a
+queen must be placed on the chessboard.
+"""
+from sys import argv, exit
 
 
 def init_board(n):
@@ -32,10 +44,8 @@ def get_solution(board):
 
 def xout(board, row, col):
     """X out spots on a chessboard.
-
     All spots where non-attacking queens can no
     longer be played are X-ed out.
-
     Args:
         board (list): The current working chessboard.
         row (int): The row where a queen was last played.
@@ -83,9 +93,8 @@ def xout(board, row, col):
         c -= 1
 
 
-def recursive_solve(board, row, queens, solutions):
+def solve_recursively(board, row, queens, solutions):
     """Recursively solve an N-queens puzzle.
-
     Args:
         board (list): The current working chessboard.
         row (int): The current working row.
@@ -103,24 +112,25 @@ def recursive_solve(board, row, queens, solutions):
             tmp_board = board_deepcopy(board)
             tmp_board[row][c] = "Q"
             xout(tmp_board, row, c)
-            solutions = recursive_solve(tmp_board, row + 1,
-                                        queens + 1, solutions)
+            solutions = solve_recursively(
+                tmp_board, row + 1, queens + 1, solutions
+            )
 
     return (solutions)
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
+    if len(argv) != 2:
         print("Usage: nqueens N")
-        sys.exit(1)
-    if sys.argv[1].isdigit() is False:
+        exit(1)
+    if argv[1].isdigit() is False:
         print("N must be a number")
-        sys.exit(1)
-    if int(sys.argv[1]) < 4:
+        exit(1)
+    if int(argv[1]) < 4:
         print("N must be at least 4")
-        sys.exit(1)
+        exit(1)
 
-    board = init_board(int(sys.argv[1]))
-    solutions = recursive_solve(board, 0, 0, [])
+    board = init_board(int(argv[1]))
+    solutions = solve_recursively(board, 0, 0, [])
     for sol in solutions:
         print(sol)
